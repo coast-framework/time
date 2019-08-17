@@ -3,11 +3,10 @@ Clojure time helpers
 
 ## Installation
 
-Add it to your `deps.edn` file
+Add it to your [deps.edn](https://clojure.org/guides/deps_and_cli)
 
 ```clojure
-{:deps {coast-framework/time {:git/url "https://github.com/coast-framework/time"
-                              :sha "089743d3dac38385bc1e189e394cd171be8a6832"}}}
+coast-framework/time {:mvn/version "1.0.0"}
 ```
 
 ## Usage
@@ -29,7 +28,7 @@ Everything is centered around epoch/milliseconds and the java.time apis
     (time/fmt)) ; => "01/01/2019 00:00:00"
 ```
 
-There are more helper functions, but the docs are thin, you can always use the source, Luke.
+There are more helper functions, but the docs are thin, __use the source, Luke__.
 
 ## License
 
